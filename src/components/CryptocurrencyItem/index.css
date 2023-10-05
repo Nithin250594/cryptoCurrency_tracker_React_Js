@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.currency-logo-name-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20%;
+}
+
+.currency-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.crypto-values-container {
+  background-color: transparent;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.currency-values-section {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.currency-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.currency-values {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
